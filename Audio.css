@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #8b5e34;
+    color: #f7b267;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.header {
+    background-color: #d4a276;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+audio {
+    margin-top: 15px;
+    width: 100%;
+}
+
+.now-playing {
+    background-color: #ffedd8;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.now-playing h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.song-title {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.artist {
+    font-size: 0.9em;
+    color: #f7b267;
+}
+
+.button-container a {
+    background-color: #d4a276;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-align: center;
+}
+
+.button-container a:hover {
+    background-color: #555;
+}
